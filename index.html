@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3D Racing Game</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="info">
+            3D Racing Game<br/>
+            W/S: forward/backward<br/>
+            A/D: left/right<br/>
+        </div>
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "https://unpkg.com/three@0.142.0/build/three.module.js",
+                    "@dimforge/rapier3d-compat": "https://cdn.skypack.dev/@dimforge/rapier3d-compat"
+				}
+			}
+		</script>
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
